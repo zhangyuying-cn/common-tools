@@ -3,6 +3,9 @@ package com.zhangyuying.tools.util;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+/**
+ * 提供使用BigDecimal进行精确计算的工具类
+ */
 public class BigDecimalUtil {
 
     /**
