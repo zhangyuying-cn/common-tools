@@ -23,6 +23,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/src.zip!/java/math/BigDecimal.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/src.zip!/java/math/RoundingMode.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -69,6 +73,7 @@
       <updated>1673503473493</updated>
       <workItem from="1673503474928" duration="4326000" />
       <workItem from="1673512759445" duration="4399000" />
+      <workItem from="1673866216613" duration="1375000" />
     </task>
     <servers />
   </component>

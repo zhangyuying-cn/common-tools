@@ -146,8 +146,7 @@ public class BigDecimalUtil {
      */
     public static double divide(double v1, double v2, int scale) {
         if (scale < 0) {
-            throw new IllegalArgumentException(
-                    "The scale must be a positive integer or zero");
+            throw new IllegalArgumentException("The scale must be a positive integer or zero");
         }
         BigDecimal b1 = BigDecimal.valueOf(v1);
         BigDecimal b2 = BigDecimal.valueOf(v2);
@@ -245,7 +244,7 @@ public class BigDecimalUtil {
     }
 
     /**
-     * 返回两个数中大的一个值
+     * 返回最大的一个值
      *
      * @param vList 需要被对比的数
      * @return 返回两个数中大的一个值
@@ -263,7 +262,7 @@ public class BigDecimalUtil {
     }
 
     /**
-     * 返回两个数中小的一个值
+     * 返回最小的一个值
      *
      * @param vList 需要被对比的数
      * @return 返回两个数中小的一个值
@@ -278,6 +277,26 @@ public class BigDecimalUtil {
             result = result.min(b);
         }
         return result.doubleValue();
+    }
+
+    /**
+     * 转化为float
+     *
+     * @param v double类型的值
+     * @return float类型的值
+     */
+    public static double toFloat(double v) {
+        return BigDecimal.valueOf(v).floatValue();
+    }
+
+    /**
+     * 转化为double
+     *
+     * @param v float类型的值
+     * @return double类型的值
+     */
+    public static double toDouble(Float v) {
+        return BigDecimal.valueOf(v).doubleValue();
     }
 
 
