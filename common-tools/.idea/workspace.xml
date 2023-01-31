@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8678dd4-6c2a-4616-bc1b-e0c66ffe28aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangyuying/tools/constant/SymbolConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangyuying/tools/util/ListUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/common-tools-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/common-tools-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zhangyuying.tools.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zhangyuying.tools.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.zhangyuying.tools.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.zhangyuying.tools.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangyuying/tools/util/ListUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangyuying/tools/util/ListUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +79,8 @@
       <workItem from="1673955953951" duration="61000" />
       <workItem from="1673956347034" duration="523000" />
       <workItem from="1674004336786" duration="3642000" />
+      <workItem from="1675058662252" duration="3000" />
+      <workItem from="1675060347311" duration="1591000" />
     </task>
     <servers />
   </component>

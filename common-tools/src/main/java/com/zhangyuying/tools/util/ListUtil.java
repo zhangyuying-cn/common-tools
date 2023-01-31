@@ -51,10 +51,17 @@ public class ListUtil<T> {
     }
 
     public static String toString(List<String> list) {
-        if(CollectionUtils.isEmpty(list)){
-            return String
+        if (CollectionUtils.isEmpty(list)) {
+            return "";
         }
         return String.join(SymbolConstant.COMMA, list);
+    }
+
+    public static String toString(List<String> list, String symbol) {
+        if (CollectionUtils.isEmpty(list)) {
+            return "";
+        }
+        return String.join(symbol, list);
     }
 
 
