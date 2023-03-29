@@ -29,7 +29,7 @@ public class ListUtil<T> {
     }
 
     /**
-     * 字符串转换为List
+     * 字符串转换为List，默认使用逗号分割
      */
     public static List<String> toList(String str) {
         if (StringUtils.isBlank(str)) {
@@ -50,6 +50,9 @@ public class ListUtil<T> {
         return toList(array);
     }
 
+    /**
+     * List转换字符串，默认使用逗号分割
+     */
     public static String toString(List<String> list) {
         if (CollectionUtils.isEmpty(list)) {
             return "";
@@ -57,6 +60,9 @@ public class ListUtil<T> {
         return String.join(SymbolConstant.COMMA, list);
     }
 
+    /**
+     * 根据指定符号，List转换字符串
+     */
     public static String toString(List<String> list, String symbol) {
         if (CollectionUtils.isEmpty(list)) {
             return "";
