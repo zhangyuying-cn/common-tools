@@ -70,7 +70,9 @@ public class ListUtil<T> {
         return String.join(symbol, list);
     }
 
-
+    /**
+     * 数组转换为字符串
+     */
     public static <T> String toString(String... array) {
         return String.join(SymbolConstant.COMMA, array);
     }
