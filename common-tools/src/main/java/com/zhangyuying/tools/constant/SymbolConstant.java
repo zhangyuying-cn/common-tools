@@ -12,4 +12,9 @@ public class SymbolConstant {
      */
     public static final String COMMA = ",";
 
+    /**
+     * 冒号
+     */
+    public static final String SEMICOLON = ";";
+
 }
