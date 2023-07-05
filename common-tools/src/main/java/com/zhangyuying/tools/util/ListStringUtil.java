@@ -11,9 +11,9 @@ import java.util.List;
 /**
  * List工具类
  */
-public class ListUtil<T> {
+public class ListStringUtil<T> {
 
-    private ListUtil() {
+    private ListStringUtil() {
     }
 
     /**
