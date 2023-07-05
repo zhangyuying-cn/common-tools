@@ -1,4 +1,4 @@
-package com.zhangyuying.tools;
+package com.zyy.tools;
 
 /**
  * Hello world!

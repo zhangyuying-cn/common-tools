@@ -1,4 +1,4 @@
-package com.zhangyuying.tools;
+package com.zyy.tools;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

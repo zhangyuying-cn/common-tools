@@ -1,4 +1,4 @@
-package com.zhangyuying.tools.enums;
+package com.zyy.tools.enums;
 
 /**
  * 周枚举

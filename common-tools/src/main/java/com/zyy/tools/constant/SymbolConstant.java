@@ -1,4 +1,4 @@
-package com.zhangyuying.tools.constant;
+package com.zyy.tools.constant;
 
 /**
  * 符号常量类
