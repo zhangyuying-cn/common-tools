@@ -26,12 +26,20 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <commons-lang3.version>3.10</commons-lang3.version>
         <commons-collections4.version>4.4</commons-collections4.version>
+        <google.zxing.version>3.4.1</google.zxing.version>
         <hutool.version>5.8.18</hutool.version>
         <lombok.version>1.18.20</lombok.version>
+        <springframework.version>5.3.18</springframework.version>
 
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${springframework.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
@@ -50,6 +58,20 @@
             <scope>compile</scope>
         </dependency>
 
+        <!-- 二维码  -->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>${google.zxing.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>javase</artifactId>
+            <version>${google.zxing.version}</version>
+        </dependency>
+        <!-- 二维码  -->
+
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
@@ -60,6 +82,8 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
         </dependency>
+
+
 
         <dependency>
             <groupId>junit</groupId>
